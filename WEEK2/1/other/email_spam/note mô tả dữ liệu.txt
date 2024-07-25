@@ -1,0 +1,7 @@
+Note về cách sử dụng file:
+- Mô tả dữ liệu: 
+    + Dữ liệu email spam
+    + Các đặc trưng: Email No. (id của email có thể bỏ), các từ trong email (giá trị là số lần xuất hiện) và Prediction (0: No spam và 1: spam)
+- Cách làm:
+    + Sử dụng chia ngẫu nhiên theo lớp với train_test_split của sklearn sử dụng tỉ lệ 80:20 và random_state = 42
+    
